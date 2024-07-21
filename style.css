@@ -137,7 +137,7 @@ body {
 ---------------------------------*/
 
 .banner-container-full {
-    background-image: url("img/banner-napne.jpg");
+    background-image: url("img/napne/banner-napne.jpg");
     background-position:center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -247,42 +247,39 @@ body {
 /* Objetivos
 ---------------------------------*/ 
 
-main{
-    max-width: 1220px;
-    margin:0 auto;
+.objetivos-title {
+    text-align: center;
 }
-#Titulo_Objetivos{
+
+.objetivos-carrosel {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 100px;
-    margin-top: 15px;
+    gap: 40px;
 }
-#Titulo_Objetivos > h2{
-    font-size: 26px;
-}
-.secao1{
-    display: flex;
-    justify-content: space-between;
 
+.objetivos-item {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: calc((100% / 3) - 40px);
+    box-sizing: border-box;
+    transition: 0.3s;
 }
-.secao2{
-    display: flex;
-    width: 872px;
-    justify-content: space-around;
-    align-items: center;
 
-}
-.display_container{
-    padding: 0;
-    display: flex;
-    width: 1220px;
-}
-.carrossel_main{
-    padding: 0;
-    width: 370px;
-    height: 512px;
 
+.objetivos-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
+
+.objetivos-item:hover {
+    transform: scale(1.05);
+}
+
 
 
 /* Atendidos
