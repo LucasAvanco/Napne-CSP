@@ -64,6 +64,37 @@ body {
     width: 100%;
 }
 
+/* G translate
+---------------------------------*/
+.gt-open {
+    position: absolute !important;
+    background-color: #17882C !important;
+    border: 10px !important;
+    color: white !important;
+}
+.gt_options, .gt-open {
+    position: absolute !important;
+}
+
+.gt-selected {
+    background-color: transparent !important;
+}
+
+.gt_float_switcher {
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+
+.gt_float_switcher .gt-selected .gt-current-lang {
+    color: white !important;
+    padding: 10px !important;
+    height: 100%;
+}
+
+.gt_float_switcher .gt_options a {
+    color: white !important;
+    padding: 10px !important;
+}
 /* Header
 ---------------------------------*/
 
@@ -99,6 +130,8 @@ body {
 
 .header-nav-list li {
     list-style-type: none;
+    display: flex;
+    align-items: center;
 }
 
 .header-nav-list a {
