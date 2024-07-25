@@ -1,4 +1,3 @@
-
 /* Geral
 ---------------------------------*/
 
@@ -17,6 +16,11 @@
 .container {
     max-width: 1200px;
     margin: 0 auto;
+}
+
+
+.bg-verde {
+    background-color: #17882C;
 }
 
 /* Header
@@ -42,7 +46,6 @@
 
 /* Responsividade
 ---------------------------------*/
-
 
 
 /* Responsividade
