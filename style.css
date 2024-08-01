@@ -271,6 +271,7 @@ body {
 
 .finalidade-titulo {
     font-size: 30px;
+    font-weight: 600;
 }
 
 .finalidade-texto {
@@ -282,6 +283,7 @@ body {
 
 .objetivos-title {
     text-align: center;
+    font-weight: 600;
 }
 
 .objetivos-carrosel {
@@ -317,6 +319,36 @@ body {
 
 /* Atendidos
 ---------------------------------*/
+
+.atendidos{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 350;
+}
+
+.atendidos-reverse{
+    display:flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.atendidos-descricao{
+    padding-left: 40px;
+}
+
+.atendidos-descricao-reverse{
+    padding-right: 40px;
+}
+
+.atendidos-titulo {
+    font-weight: 500;
+    font-size: 26px!important;
+}
+
+.atendidos-texto {
+    font-size: 16px;
+}
 
 /* Ancora
 ---------------------------------*/
@@ -367,24 +399,8 @@ body {
         width: 100%;
     }
 
-
-
-
     main{
         max-width:100vw;
-    }
-    .secao1{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-
-    }
-    .secao2{
-        width: 100% ;
-        display: flex;
-        flex-direction: column;
-        align-items:center;
     }
     .carrossel_main{
         flex: 1;
@@ -412,6 +428,6 @@ body {
 
 @media (max-width:360px) {
     .container {
-        max-width: 300px;
+        max-width: 320px;
     }
 }
