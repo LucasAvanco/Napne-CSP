@@ -370,6 +370,22 @@ body {
     .container {
         max-width: 900px;
     }
+
+    .atendidos{
+        flex-direction: column;
+    }
+    
+    .atendidos-reverse{
+        flex-direction: column;
+    }
+
+    .atendidos img{
+        margin: 30px 0;
+    }
+    
+    .atendidos-reverse img{
+        margin: 30px 0;
+    }
 }
 
 @media (max-width:920px) {
