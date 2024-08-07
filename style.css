@@ -346,6 +346,7 @@ body {
 
 .atendidos-titulo {
     font-weight: 500;
+    text-wrap: balance;
     font-size: 26px!important;
 }
 
@@ -431,20 +432,13 @@ body {
 ---------------------------------*/
 
 .full-footer{
-    margin:0 auto;
-    max-width:1440px;
-    height: 324px;
     background-color: #000000;
 }
-.metade-footer{
-    margin:0 auto;
-    max-width: 1220px;
-    height: 161px;
-}
+
 #linha-footer{
-    width:1220px;
-    margin: 0 auto;
-    border:1px solid white;
+    width: 100%;
+    background-color: white;
+    height: 1px;
 }
 .metade-footer > img{
     height: 50px;
@@ -585,6 +579,12 @@ body {
 @media (max-width:520px) {
     .container {
         max-width: 400px;
+    }
+
+    .metade-footer {
+        display: flex;
+        gap: 40px;
+        flex-direction: column;
     }
 }
 
