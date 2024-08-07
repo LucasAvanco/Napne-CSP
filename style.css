@@ -348,6 +348,7 @@ body {
     font-weight: 500;
     text-wrap: balance;
     font-size: 26px!important;
+    margin-top: 20px;
 }
 
 .atendidos-texto {
@@ -465,6 +466,7 @@ body {
         max-width: 900px;
     }
     /*Obejtivo Napne*/
+    
     .objetivos-item-image{
         height: 62%;
     }
@@ -502,11 +504,12 @@ body {
         display: flex;
         align-items: center;
         justify-content: center;
+        margin-bottom: -40px;
     }
 
     .ancora-imagem img {
         height: auto;
-        width: auto;
+        width: 80%;
     }
 
     .ancora-conteudo {
@@ -585,6 +588,14 @@ body {
         display: flex;
         gap: 40px;
         flex-direction: column;
+    }
+
+    .atendidos-descricao{
+        padding-left: 0px;
+    }
+
+    .ancora-container {
+        padding: 0;
     }
 }
 
