@@ -430,6 +430,35 @@ body {
 /* Footer
 ---------------------------------*/
 
+.full-footer{
+    margin:0 auto;
+    max-width:1440px;
+    height: 324px;
+    background-color: #000000;
+}
+.metade-footer{
+    margin:0 auto;
+    max-width: 1220px;
+    height: 161px;
+}
+#linha-footer{
+    width:1220px;
+    margin: 0 auto;
+    border:1px solid white;
+}
+.metade-footer > img{
+    height: 50px;
+}
+#palavra-footer{
+    color: white;
+}
+#metade-footer-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
 /* Responsividade
 ---------------------------------*/
 
@@ -489,6 +518,12 @@ body {
     .ancora-conteudo {
         width: 100%;
         padding: 80px 40px;
+    }
+
+
+    #metade-footer-2{
+        padding-left: 6.5px;
+        padding-right: 50px;
     }
 }
 
