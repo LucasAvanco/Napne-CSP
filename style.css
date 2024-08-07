@@ -441,6 +441,10 @@ body {
     .container {
         max-width: 900px;
     }
+    /*Obejtivo Napne*/
+    .objetivos-item-image{
+        height: 62%;
+    }
 
     /* Atendidos */
 
