@@ -284,6 +284,8 @@ body {
 .objetivos-title {
     text-align: center;
     font-weight: 600;
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
 
 .objetivos-carrosel {
@@ -466,11 +468,18 @@ body {
 }
 
 .perguntas-conteudo {
-    display: none;
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: grid-template-rows 0.3s;
+}
+
+
+.perguntas-conteudo > div {
+    overflow: hidden;
 }
 
 .perguntas-active {
-    display: block;
+    grid-template-rows: 1fr;
 }
 
 /* Footer
@@ -573,8 +582,16 @@ body {
         max-width: 900px;
     }
 
+    .finalidade-titulo {
+        margin-top: 40px;
+    }
+
     .objetivos-item {
         width: calc(50% - 40px);
+    }
+
+    .objetivos-title {
+        margin-top: 20px;
     }
 
 /* Header

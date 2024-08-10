@@ -15,8 +15,8 @@ fecharMenu.addEventListener('click', function (){
 
 /* Perguntas frequentes
 ---------------------------------*/
+
 let perguntas_triggers = document.querySelectorAll('.perguntas-item');
-console.log(perguntas_triggers);
 
 perguntas_triggers.forEach(function(trigger) {
   trigger.addEventListener('click', function() {
