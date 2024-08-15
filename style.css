@@ -429,6 +429,20 @@ body {
     opacity: 0.5;
 }
 
+/* Atendimentos
+---------------------------------*/ 
+
+.atendimentos-container {
+    display: flex;
+    justify-content: center;
+}
+
+th,  td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+}
+
 /* Perguntas
 ---------------------------------*/
 
@@ -505,10 +519,6 @@ body {
     align-items: center;
     justify-content: space-between;
 }
-
-
-/* Responsividade
----------------------------------*/
 
 
 /* Responsividade
