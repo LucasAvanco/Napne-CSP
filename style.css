@@ -312,7 +312,7 @@ body {
     display: block;
     height: 100%;
     display: flex;
-    align-items: center;
+    align-items: end;
     justify-content: center;
 }
 
