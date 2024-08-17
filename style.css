@@ -64,6 +64,19 @@ body {
     width: 100%;
 }
 
+.hide {
+    display: none;
+}
+
+.titulo {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.text-center {
+    text-align: center;
+}
+
 /* G translate
 ---------------------------------*/
 .gt-open {
@@ -444,6 +457,7 @@ body {
 .atendimentos-container {
     display: flex;
     justify-content: center;
+    overflow-y: auto;
 }
 
 th,  td {
@@ -537,6 +551,11 @@ th,  td {
     .container {
         max-width: 900px;
     }
+
+    .hide-xl {
+        display: none;
+    }
+
     /*Obejtivo Napne*/
     
     .objetivos-item-image{
@@ -565,6 +584,7 @@ th,  td {
     }
 
     /* Ancora */
+
     .ancora-container {
         align-items: start;
         flex-direction: column;
@@ -589,10 +609,9 @@ th,  td {
         padding: 80px 40px;
     }
 
-
-    #metade-footer-2{
-        padding-left: 6.5px;
-        padding-right: 50px;
+    /* Atendimentos */
+    .atendimentos-container {
+        justify-content: unset;
     }
 }
 
@@ -601,9 +620,17 @@ th,  td {
         max-width: 900px;
     }
 
+    .hide-lg {
+        display: none;
+    }
+
+     /* Finalidade */
+
     .finalidade-titulo {
         margin-top: 40px;
     }
+
+     /* Objetivos */
 
     .objetivos-item {
         width: calc(50% - 40px);
@@ -652,6 +679,10 @@ th,  td {
         max-width: 500px;
     }
 
+    .hide-md {
+        display: none;
+    }
+
     /* Objetivos */
 
     .objetivos-item {
@@ -662,6 +693,10 @@ th,  td {
 @media (max-width:520px) {
     .container {
         max-width: 400px;
+    }
+
+    .hide-sm {
+        display: none;
     }
 
     .metade-footer {
@@ -686,14 +721,19 @@ th,  td {
         font-size: 24PX;
     }
 
-    .ancora-texto :first-child {
-        display: none;
+    /* Perguntas */
+    .perguntas-top h2 {
+        font-size: 14px;
     }
 }
 
 @media (max-width:420px) {
     .container {
         max-width: 360px;
+    }
+
+    .hide-xs {
+        display: none;
     }
 
     .ancora-conteudo {
