@@ -183,7 +183,7 @@ body {
 ---------------------------------*/
 
 .banner-container-full {
-    background-image: url("img/napne/banner-napne.jpg");
+    background-image: url("../img/napne/banner-napne.jpg");
     background-position:center;
     background-repeat: no-repeat;
     background-size: cover;
