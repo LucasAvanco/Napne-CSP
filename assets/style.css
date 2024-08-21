@@ -582,6 +582,14 @@ th,  td {
         height: 100%;
     }
     
+    .atendidos-descricao{
+        padding-left: 0px;
+    }
+    
+    .atendidos-descricao-reverse{
+        padding-right: 0px;
+    }
+    
     .atendidos-reverse img{
         width: 100%;    
         height: 100%;
@@ -710,13 +718,6 @@ th,  td {
         flex-direction: column;
     }
 
-    .atendidos-descricao{
-        padding-left: 0px;
-    }
-    
-    .atendidos-descricao-reverse{
-        padding-right: 0px;
-    }
     .ancora-container {
         padding: 0;
     }
