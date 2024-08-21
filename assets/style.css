@@ -708,7 +708,10 @@ th,  td {
     .atendidos-descricao{
         padding-left: 0px;
     }
-
+    
+    .atendidos-descricao-reverse{
+        padding-right: 0px;
+    }
     .ancora-container {
         padding: 0;
     }
